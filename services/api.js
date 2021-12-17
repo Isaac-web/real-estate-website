@@ -8,7 +8,7 @@ const fetchApiData = async (url) => {
     params: { lang: "en" },
     headers: {
       "x-rapidapi-host": "bayut.p.rapidapi.com",
-      "x-rapidapi-key": "19389585e6mshafd7cc46b016bc4p146ec5jsnf0162001a13c",
+      "x-rapidapi-key": process.env.CLIENT_KEY,
     },
   };
 
